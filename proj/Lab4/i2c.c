@@ -70,7 +70,7 @@ void I2C1_putchar(unsigned char ch){
 	
 		 while ((I2C1->MASTER.MFIFOSR & I2C_MFIFOSR_TXFIFOCNT_MASK) == I2C_MFIFOSR_TXFIFOCNT_MINIMUM)
     {
-       
+       just testing to see if i can update my shi
     }
 		I2C1 -> MASTER.MTXDATA = ch;
 	
